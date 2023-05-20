@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KirkstonM/Crypto_App_React.git/static/css/main.d4da0a0c.css",
-    "main.js": "/KirkstonM/Crypto_App_React.git/static/js/main.21f0b351.js",
-    "static/js/787.28cb0dcd.chunk.js": "/KirkstonM/Crypto_App_React.git/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/KirkstonM/Crypto_App_React.git/index.html",
-    "main.d4da0a0c.css.map": "/KirkstonM/Crypto_App_React.git/static/css/main.d4da0a0c.css.map",
-    "main.21f0b351.js.map": "/KirkstonM/Crypto_App_React.git/static/js/main.21f0b351.js.map",
-    "787.28cb0dcd.chunk.js.map": "/KirkstonM/Crypto_App_React.git/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Crypto_App_React.git/static/css/main.d4da0a0c.css",
+    "main.js": "/Crypto_App_React.git/static/js/main.35f98ad2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Crypto_App_React.git/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Crypto_App_React.git/index.html",
+    "main.d4da0a0c.css.map": "/Crypto_App_React.git/static/css/main.d4da0a0c.css.map",
+    "main.35f98ad2.js.map": "/Crypto_App_React.git/static/js/main.35f98ad2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Crypto_App_React.git/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4da0a0c.css",
-    "static/js/main.21f0b351.js"
+    "static/js/main.35f98ad2.js"
   ]
 }
