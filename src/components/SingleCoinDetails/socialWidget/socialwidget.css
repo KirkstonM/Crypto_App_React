@@ -1,0 +1,57 @@
+.info-container h4 {
+    color: var(--text-color-primary);
+}
+
+.title {
+    width: 10rem;
+    color: var(--text-color-primary);
+}
+
+.coin-website-tab div {
+    padding: 1rem;
+    padding: 0.25rem 0.7rem;
+    font-size: 0.9rem;
+    border-radius: 0.6rem;
+    background: var(--background-color-primary);
+    color: var(--text-color-ternery);
+    font-weight: 500;
+}
+
+.coin-website-tab div:hover {
+    color: rgb(3, 185, 3);
+}
+
+.show-more-container {
+    border: 1px solid white;
+    text-align: center;
+    color: var(--text-color-ternery);
+    background: var(--background-color-primary);
+    margin-top: 1.8rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: none;
+}
+
+@media only screen and (max-width : 480px) and (min-width : 320px) {
+    .info-container.sm {
+        display: none;
+    }
+
+    .show-more-container {
+        display: block;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .info-container.sm {
+        display: none;
+    }
+
+    .show-more-container {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+}

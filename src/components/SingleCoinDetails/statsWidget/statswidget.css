@@ -1,0 +1,38 @@
+.stat-widget {
+    border-radius: 2rem;
+    background-color: var(--background-color-primary);
+    max-height: auto;
+}
+
+.stat-widget h3 {
+    text-transform: uppercase;
+    color: var(--text-color-ternery);
+}
+
+.stat-widget div:first-child {
+    color: grey;
+}
+
+.stat-widget div:last-child {
+    color: var(--text-color-ternery);
+    font-weight: 500;
+}
+
+.stat-container {
+    border-bottom: 1px solid grey;
+}
+
+
+
+@media only screen and (max-width : 1024px) and (min-width : 769px) {
+    .stat-widget {
+        margin-bottom: -1rem;
+    }
+}
+
+
+@media only screen and (max-width : 1200px) and (min-width : 1025px) {
+    .stat-widget {
+        margin-bottom: -1rem;
+    }
+}

@@ -1,0 +1,18 @@
+#dark {
+--background-color : #181A20;
+--navbar-color : rgb(24, 26, 32);
+--text-color-primary : grey;
+--text-color-secondary : #fcd535;
+--text-color-ternery : #EAECEF;
+--background-color-primary : rgba(255, 255, 255,0.05);
+}
+
+#light{
+    --background-color : #fff;
+    --navbar-color : rgb(245, 244, 244);
+    --text-color-primary : grey;
+    --text-color-secondary : #222;
+    --text-color-ternery : black;
+    --background-color-primary : rgba(243,244,246,1)
+
+}

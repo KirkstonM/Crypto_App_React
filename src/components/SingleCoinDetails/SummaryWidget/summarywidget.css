@@ -1,0 +1,12 @@
+.coin-history-desc{
+    background-color:  var(--background-color-primary);
+    color: var(--text-color-ternery);
+    overflow-wrap: break-word;
+}
+
+.coin-history-desc span {
+    margin-left: 1rem;
+    color: rgb(21, 140, 180);
+    font-style: italic;
+    cursor: pointer;
+}

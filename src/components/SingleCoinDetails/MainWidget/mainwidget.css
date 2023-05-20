@@ -1,0 +1,72 @@
+.rank-tab,
+.watchlist-tab {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 0.6rem;
+    background: #8080802c;
+    color: white;
+    color: var(--text-color-ternery);
+    font-weight: 600;
+}
+
+.coin-value div:first-child {
+    font-weight: bolder;
+    font-size: 2.2rem;
+    color: var(--text-color-ternery);
+}
+
+.coin-value div:last-child {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.coin-price-values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.trade-value {
+    border-bottom: 1px solid var(--text-color-ternery);
+}
+
+.trade-value div:first-child {
+    color: var(--text-color-primary);
+    font-weight: 500;
+}
+
+.trade-value div:last-child {
+    color: var(--text-color-ternery);
+    font-weight: 500;
+}
+
+@media only screen and (max-width : 480px) and (min-width : 320px) {
+    .coin-price-values {
+        display: block;
+    }
+
+    .watchlist-tab {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .watchlist-tab {
+        margin-bottom: 1rem;
+    }
+
+    .coin-price-values {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .watchlist-tab {
+        margin-bottom: 1rem;
+    }
+
+    .coin-price-values {
+        display: block;
+    }
+}

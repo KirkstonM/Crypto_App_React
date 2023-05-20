@@ -1,0 +1,49 @@
+.chart-tab {
+    position: relative;
+}
+
+.btn-container button {
+    border: 1px solid var(--text-color-ternery);
+    padding: 0.3rem 2.5rem;
+    background: rgba(0, 0, 0, 0);
+    color: var(--text-color-secondary);
+    border-radius: 0.2rem;
+    transition: 0.15s ease;
+}
+
+.btn-container button:hover {
+    transform: scale(0.9)
+}
+
+@media only screen and (max-width : 480px) and (min-width : 320px) {
+    .btn-container button {
+        margin-bottom: 2rem;
+        padding: 0.2rem 0.6rem;
+    }
+
+}
+
+/* TABLET */
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .btn-container button {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .btn-container {
+        margin-bottom: 2rem;
+    }
+}
+
+/* LAPTOPS */
+@media only screen and (max-width : 1024px) and (min-width : 769px) {
+    .btn-container {
+        margin-bottom: 2rem;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (max-width : 1200px) and (min-width : 1025px) {
+    .btn-container {
+        margin-bottom: 2rem;
+    }
+}
